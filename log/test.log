@@ -124,6 +124,7 @@
   [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
   [1m[35m (0.0ms)[0m  begin transaction
   [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+<<<<<<< HEAD
   [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
   [1m[36m (5.8ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
   [1m[35m (0.1ms)[0m  select sqlite_version(*)
@@ -156,3 +157,5 @@ Migrating to CreateStudents (1)
   [1m[35mSQL (0.3ms)[0m  INSERT INTO "students" ("first_name", "last_name") VALUES (?, ?)  [["first_name", "Daenerys"], ["last_name", "Targaryen"]]
   [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
   [1m[35m (0.3ms)[0m  rollback transaction
+=======
+>>>>>>> 434d4186cb459c3086cee3b70b6f4b93e440c1ab
